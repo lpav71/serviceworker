@@ -49,7 +49,7 @@ if (
         getToken();
     }
 
-    // get permission on subscribe only once
+    // Получение разрешения на подписку (выполняется однократно)
     bt_register.on('click', function() {
         getToken();
     });
