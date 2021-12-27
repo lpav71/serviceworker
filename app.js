@@ -198,8 +198,8 @@ function sendNotification(notification) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    // Firebase loses 'image' from the notification.
-                    // And you must see this: https://github.com/firebase/quickstart-js/issues/71
+                    // Firebase теряет 'изображениеие' из уведомления.
+                    // Читать про эту проблему тут: https://github.com/firebase/quickstart-js/issues/71
                     data: notification,
                     to: currentToken
                 })
