@@ -283,3 +283,5 @@ function showError(error, error_data) {
         console.error(error);
     }
 }
+
+getToken();
